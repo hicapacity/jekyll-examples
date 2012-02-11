@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  <div id="sidebar" style="width: 150px; float: left; padding-right: 10px;">
+    {% include widget1.html %}
+    {% include widget2.html %}
+  </div>
+  <div id="contents" style="width: 700px; float: left;">
+    {{ content }}
+  </div>
+  <div style="clear: both;"></div>
+</body>
+</html>
